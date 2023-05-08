@@ -1,0 +1,15 @@
+node{
+  stage('pulling Repo'){
+    git branch:'main',
+    url:'https://github.com/psolanke23/MyStore.git'
+  }
+stage('intallation'){
+sh 'npm install'
+}
+stage('test'){
+sh 'npm test'
+}
+stage('build'){
+sh 'npm run build'
+}
+}
