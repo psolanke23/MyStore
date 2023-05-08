@@ -1,7 +1,10 @@
+
+node{
+
 tools { 
         nodejs 'NodeJSinstaller'
 }
-node{
+
   stage('pulling Repo'){
     git branch:'main',
     url:'https://github.com/psolanke23/MyStore.git'
