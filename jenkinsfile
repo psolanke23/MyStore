@@ -1,6 +1,6 @@
 node{
  environment {
- path: '/usr/local/bin:/usr/bin:/bin'
+ path = '/usr/local/bin:/usr/bin:/bin'
  }
   stage('pulling Repo'){
     git branch:'main',
