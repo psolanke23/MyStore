@@ -1,4 +1,7 @@
 node{
+ environment {
+ path: '/usr/local/bin:/usr/bin:/bin'
+ }
   stage('pulling Repo'){
     git branch:'main',
     url:'https://github.com/psolanke23/MyStore.git'
