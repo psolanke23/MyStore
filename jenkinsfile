@@ -1,5 +1,7 @@
 
-node{
+pipeline {
+
+  agent any
 
 tools { 
         nodejs 'NodeJSinstaller'
