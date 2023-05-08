@@ -1,4 +1,6 @@
-tools {nodejs "NodeJSinstaller"}
+tools { 
+        nodejs 'NodeJSinstaller'
+}
 node{
   stage('pulling Repo'){
     git branch:'main',
